@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merci Car Shop</title>
+    <link rel="shortcut icon" href="image/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header class="header">
+       <a href="#"><img src="image/Logo.png"></a>
+       <nav class="navbar">
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#feat-cars">Vehicles</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </nav>
+
+       <div id="login-btn">
+           <button class="btn">Login</button>
+       </div>
+   </header>
+
+   <div class="login-form-container">
+       <span class="fas fa-times" id="close-login-form"></span>
+       <form action="">
+           <h3>user login</h3>
+           <input type="email" placeholder="email" class="box">
+           <input type="password" placeholder="password" class="box">
+           <p>forget your password <a href="#">click here</a></p>
+           <input type="submit" value="login now" class="btn">
+           <p>don't have an account <a href="#">create one</a></p>
+       </form>
+   </div>
+   
+   <section class="home" id="home">
+       <h1 class="home-parallax" data-speed="-1">Merci Autoshop</h1>
+       <img class="home-parallax" data-speed="2" src="image/Home.png" alt="">
+       <a href="#feat-cars" class="btn">explore cars</a>
+   </section>
+ 
+   <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>50+</h3>
+                <p>Offline stores</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>15000+</h3>
+                <p>Cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>13000+</h3>
+                <p>Clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>16</h3>
+                <p>New Cars</p>
+            </div>
+        </div>
+   </section>
+
+   <section class="vehicles">
+       <h1 class="heading">Popular <span>vehicles</span></h1>
+       <button class="pre-btn"><img src="image/arrow.png" alt=""></button>
+       <button class="nxt-btn"><img src="image/arrow.png" alt=""></button>
+       <div class="product-container">
+            <div class="product-card">
+                <img src="image/car-6.png" alt="">
+                <div class="content">
+                    <h3>Handi Civik</h3>
+                    <div class="price"><span>price: </span>IDR950 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-2.png" alt="">
+                <div class="content">
+                    <h3>Mikil Girige</h3>
+                    <div class="price"><span>price: </span>IDR800 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>Sulama EVO</h3>
+                    <div class="price"><span>price: </span>IDR300 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>Audah A6</h3>
+                    <div class="price"><span>price: </span>IDR1.200 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/home.png" alt="">
+                <div class="content">
+                    <h3>Mircidis Binz AMG V12</h3>
+                    <div class="price"><span>price: </span>IDR7.200 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/vehicle-4.png" alt="">
+                <div class="content">
+                    <h3>Porce 991</h3>
+                    <div class="price"><span>price: </span>IDR1.340 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+       </div>
+   </section>
+
+   <section class="services" id="services">
+       <h1 class="heading">our <span>services</span> </h1>
+       <div class="box-container">
+           <div class="box">
+               <i class="fas fa-car"></i>
+               <h3>car selling</h3>
+               <p>Merci Autocar focusing on selling high quality cars, with many top car brands. We always ensure giving our customer the best condition cars with affordable prices.</p>
+               <a href="#" class="btn">Read More</a>
+           </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Car Insurance</h3>
+                <p>We have full 100% car insurance for 3 years if you buy a car from on of our dealership. Don't worry about a little scratch!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Never sleep at job! Yes our Customer Services will always online 24/7 for you, anytime and anywhere!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+       </div>
+   </section>
+
+   <section id="feat-cars">
+    <section class="featured">
+        <h1 class="heading">Featured <span>Cars</span></h1>
+        <button class="pre-btn"><img src="image/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="image/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="image/car-12.png" alt="">
+                <div class="content">
+                    <h3>Fortaner</h3>
+                    <div class="price"><span>price: </span>IDR740 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>Audah A6</h3>
+                    <div class="price"><span>price: </span>IDR1.200 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>Sulama EVO</h3>
+                    <div class="price"><span>price: </span>IDR300 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-11.png" alt="">
+                <div class="content">
+                    <h3>Kuda Innavo</h3>
+                    <div class="price"><span>price: </span>IDR340 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-13.png" alt="">
+                <div class="content">
+                    <h3>Sizaki Curry</h3>
+                    <div class="price"><span>price: </span>IDR240 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-14.png" alt="">
+                <div class="content">
+                    <h3>Hyandai Palisoda</h3>
+                    <div class="price"><span>price: </span>IDR820 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="featured">
+        <button class="pre-btn"><img src="image/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="image/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="image/vehicle-1.png" alt="">
+                <div class="content">
+                    <h3>Porce 119 Convertible</h3>
+                    <div class="price"><span>price: </span>IDR1.250 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/vehicle-2.png" alt="">
+                <div class="content">
+                    <h3>Porce Maung</h3>
+                    <div class="price"><span>price: </span>IDR1.100 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/vehicle-3.png" alt="">
+                <div class="content">
+                    <h3>Porce 119</h3>
+                    <div class="price"><span>price: </span>IDR950 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/vehicle-6.png" alt="">
+                <div class="content">
+                    <h3>Porce Macan</h3>
+                    <div class="price"><span>price: </span>IDR1.000 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/vehicle-4.png" alt="">
+                <div class="content">
+                    <h3>Porce 119 Yellow</h3>
+                    <div class="price"><span>price: </span>IDR960 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/vehicle-5.png" alt="">
+                <div class="content">
+                    <h3>Porce 991 Convertible</h3>
+                    <div class="price"><span>price: </span>IDR2.450 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <button class="pre-btn"><img src="image/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="image/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="image/home.png" alt="">
+                <div class="content">
+                    <h3>Mircidis Binz AMG V12</h3>
+                    <div class="price"><span>price: </span>IDR7.200 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-1.png" alt="">
+                <div class="content">
+                    <h3>Mircidis Binz SLK</h3>
+                    <div class="price"><span>price: </span>IDR1.500 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-9.png" alt="">
+                <div class="content">
+                    <h3>Mircidis Binz G Wegen</h3>
+                    <div class="price"><span>price: </span>IDR4.200 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> diesel
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="image/car-10.png" alt="">
+                <div class="content">
+                    <h3>Mircidis Binz E Class</h3>
+                    <div class="price"><span>price: </span>IDR1.100 Million</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                    </p>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   </section>
+
+   <section class="newsletter" id="newsletter">
+       <h3>Subscribe for latest updates</h3>
+        <p>If you don't want to miss alot of perfect offers, you can put your email so we will send you best monthly offers by email.</p>
+       <form action="">
+           <input type="email" placeholder="Enter your email" name="" id="">
+           <input type="submit" class="subscribe" name="" id="">
+       </form>
+   </section>
+
+   <section class="footer">
+       <div class="box-container">
+           <img src="image/Logo.png" alt="">
+           <div class="box">
+                <h3>Our Branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Jakarta </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Tangerang </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Bekasi </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Bandung </a>
+           </div>
+           <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#feat-cars"><i class="fas fa-arrow-right"></i> Vehicles </a>
+                <a href="about.html"><i class="fas fa-arrow-right"></i> About Us </a>
+                <a href="contact.html"><i class="fas fa-arrow-right"></i> Contact </a>
+            </div>
+            <div class="box">
+                <h3>Contact</h3>
+                <a href="#"><i class="fas fa-phone"></i> +62 8123456789 </a>
+                <a href="#"><i class="fas fa-envelope"></i> merciautocars@merci.com </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Jakarta, WTC Tower Lt.10 </a>
+            </div>
+            <div class="box">
+                <h3>Social Media</h3>
+                <a href="https://www.facebook.com/MercedesBenz/" target="_blank"><i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://twitter.com/MercedesBenz" target="_blank"><i class="fab fa-twitter"></i> twitter </a>
+                <a href="http://instagram.com/mercedesbenzid" target="_blank"><i class="fab fa-instagram"></i>instagram</a>            </div>
+       </div>
+   </section>
+
+<script src="main.js"></script>
+</body>
+</html>
